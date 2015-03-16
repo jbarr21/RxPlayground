@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnChainApiRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chain API requests"/>
+
+    <Button
+        android:id="@+id/btnParallelWorkToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N parallel requests to list"/>
+
+    <Button
+        android:id="@+id/btnIgnoreErrorProcessingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ignore error when processing list"/>
+
+    <Button
+        android:id="@+id/btnPerRequestErrorHandling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Handle errors in requests differently"/>
+
+</LinearLayout>
